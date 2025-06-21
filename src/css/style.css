@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'keepcalm';
+    src: url("fonts/KeepCalm.ttf") format('woff2');
+    src: url("fonts/KeepCalm.ttf") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "keepcalm";
+    background-color: #fae5e7;
+}
+
+header{
+    font-family: "keepcalm";
+    background-color: #fae5e7;
+}
+
+main{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h2{
+    font-family: "keepcalm";
+    color: #000;
+    text-align: center;
+}
+
+h3{
+    font-family: "keepcalm";
+    color: #000;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#img-logo{
+    width: 100px;
+}
+
+#img-social{
+    width: 30px;
+    vertical-align:middle;
+    margin-bottom: 5px;
+}
+
+.sabor-item{
+    vertical-align: left;
+    border-radius: 10px;
+    font-family: "keepcalm";
+    font-size: 35px;
+    background-color: #ffffff;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5cap;                /* Espaçamento interno */
+    transition: transform 0.3s ease; /* Transição suave para efeito hover */
+}
+
+.sabor-item:hover {
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.sabor-descricao{
+    font-family: "keepcalm";
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: -15px;
+}
+
+.sabor-info {
+    display: flex;           /* Torna este contêiner flexível */
+    flex-direction: column;  /* EXATAMENTE: Faz os filhos (h3 e p) ficarem um abaixo do outro */
+}
+
+.sabor-foto{
+    width: 200px;
+    vertical-align: left;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.botao-navegacao {
+    font-family: "keepcalm";
+    color: rgb(95, 95, 95);
+    transition: transform 0.3s ease; /* Transição suave para efeito hover */
+}
+
+.botao-navegacao:hover{
+    color: rgb(0, 0, 0);
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+nav li{
+    font-family: "keepcalm";
+    display: inline;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 1px solid rgb(95, 95, 95);
+    padding: 4px;
+    background-color: #fff2f3;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Transição suave para efeito hover */
+}
+
+nav li:hover{
+    font-family: "keepcalm";
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #fff;
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
